@@ -1,4 +1,4 @@
-package trybe.main;
+package trybemain;
 
 public class Exploring {
 
