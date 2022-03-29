@@ -14,7 +14,12 @@ public class Arrays {
     System.out.println(matriz[0][0]); // 10 
     System.out.println(matriz[1][5]); // 0  
     System.out.println(arrayDeString[0] + arrayDeString[1]); // Na Trybe eu aprendo Java! 
-    System.out.println(arrayDeString.length); // 10 
+    System.out.println(arrayDeString.length); // 10
+
+    int a = 2;
+    int b = 4;
+    boolean isEqual = a == b;
+    System.out.println(isEqual);
   }
 
 }
