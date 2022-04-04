@@ -1,0 +1,1 @@
+### No desenvolvimento em Java, mantenha seus atributos privados e escreva métodos Getters e Setters para eles, dependendo da necessidade de consulta ou modificação de seus valores.
