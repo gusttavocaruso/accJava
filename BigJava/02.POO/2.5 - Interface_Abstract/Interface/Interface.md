@@ -8,8 +8,9 @@ Uma interface em Java é uma classe abstrata cujos atributos não são acessados
 
 Para implementar várias interfaces em uma classe, basta separá-las por vírgula. Exemplo:
 
+```java
 class UmaClasse implements InterfaceA, InterfaceB, InterfaceC
-
+```
 
 ### Herança
 
