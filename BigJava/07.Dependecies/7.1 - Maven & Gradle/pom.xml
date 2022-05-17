@@ -1,0 +1,27 @@
+<!-- 
+Antes de colocarmos nossas dependências no arquivo “pom.xml”, precisamos adicionar algumas informações básicas:
+
+  - groupId: o nome dos pacotes da sua organização
+  - artifactId: o nome do seu projeto ou produto
+  - version: a versão em que se encontra o projeto ou produto
+  - packaging: o tipo de arquivo que é disponibilizado no final
+
+A seguir, podemos ver como deve estar preenchida a parte básica do seu arquivo pom.xml:
+ -->
+
+<project>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.trybe</groupId>
+  <artifactId>trybe-webapp</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+</project>
+
+<!-- 
+Vamos ao que interessa: “Onde eu coloco as dependências do projeto?” A lista de dependências é declarada no arquivo “pom.xml” sob a tag dependencies, onde cada dependência será uma tag dependency. Dentro de dependency é necessário informar pelo menos groupId, artifactId, version para que o Maven encontre essas dependências no Maven Central ou em outro repositório previamente configurado.
+
+Para alterar ou adicionar repositórios de dependências, deve-se usar a tag repositories, onde cada repositório seja uma tag repository. Dentro de repository, devem ser informados id, name e url para que o Maven saiba onde buscar as dependências.
+ -->
