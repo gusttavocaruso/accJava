@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    platform: linux/x86_64 #específico para Mac M1
+    environment:
+      MYSQL_DATABASE: 'carrodb'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: '91280394'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
