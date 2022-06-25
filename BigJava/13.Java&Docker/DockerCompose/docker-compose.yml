@@ -1,0 +1,17 @@
+# Aqui indicamos qual versão do docker-compose vamos utilizar.
+version: "3.7"
+# Esse conjunto de linhas informa em qual porta a nossa aplicação vai subir e qual o seu link (de qual outra parte dentro daquele docker compose ela é dependente).
+services:
+  application:
+    build: .
+    restart: always
+    ports:
+      - 8888:8888
+    links:
+      - mongodb:database
+# Nesse conjunto de linhas, indicamos para fazer o download da versão mais recente do MongoDb.
+  mongodb:
+    image: "mongo:latest"
+    restart: always
+    ports:
+      - 27017:27017
