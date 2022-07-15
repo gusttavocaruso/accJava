@@ -2,6 +2,8 @@
 
 # Aceleração em Java
 
+<img width="200px" src="./BigJava/99.img/Java-Logo-1996.png" />
+
 </div>
 
 ## Projetos desenvolvidos durante o curso
@@ -12,12 +14,14 @@
 - <a target="_blank" href="https://github.com/gusttavocaruso/controle-de-acesso">controle-de-acesso</a>
 
 
-### Projeto final
-- <a target="_blank" href="https://github.com/gusttavocaruso/mensure-shelter">measure-shelter</a>
+#### **Projeto final**
+- <a target="_blank" href="https://github.com/gusttavocaruso/measure-shelter">measure-shelter</a>
 
 ---
 
 <div align="center">
+
+<img width="500px" src="./BigJava/99.img/certificado-acc-java.png" />
 
 Repositório de curso de JAVA promovido pela [Trybe](https://www.betrybe.com/) em parceria com a [CI&T](https://ciandt.com/br/pt-br/home) ©
 
